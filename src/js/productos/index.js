@@ -3,7 +3,7 @@ import { Toast, validarFormulario } from "../funciones";
 import Swal from "sweetalert2";
 
 
-const formulario = document.getElementById('formProducto')
+const formulario = document.getElementById('formProductos')
 const guardar = async (e) => {
     e.preventDefault()
 
